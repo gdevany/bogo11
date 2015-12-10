@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>Coupon posting review</h2>
+        <h2>Review your Offer</h2>
         <h3 class="flash">${flash}</h3>
         <br><br><br>
         <p> </p>

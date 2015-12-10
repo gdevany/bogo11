@@ -136,7 +136,7 @@ public class BogoController extends HttpServlet {
         if (bogoDesc == null || bogoDesc.length() < 1 || 
                 bogoDesc.length() > 40) {
             request.setAttribute(
-                    "flash", "Description must be between 1-40 characters.");
+                    "flash", "BOGO Offer description must be between 1-40 characters.");
             request.setAttribute(
                     "coupon", coupon);
             return "postCoupon";
@@ -171,7 +171,7 @@ public class BogoController extends HttpServlet {
             }
         }
         if (couponValue == null || couponValue.length() < 1 || couponValue.length() > 10) {
-            request.setAttribute("flash", "Value must be entered as dollar and cent format.");
+            request.setAttribute("flash", "Value must be entered as xX.xx format.");
             request.setAttribute("coupon", coupon);
             return "postCoupon";
         }

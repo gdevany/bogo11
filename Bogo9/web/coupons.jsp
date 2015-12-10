@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>BOGO offers near you</h2>
+        <h2>BOGO Offers near you</h2>
         <h3 class="flash">${flash}</h3>    
         
     <form method="POST" action="coupons">
@@ -25,8 +25,8 @@
                     ${coupon.bizLoc}
                     <br>
                     <span class="footer">
-                        Max Coupon value: $ ${coupon.couponValue}&nbsp;&nbsp;&nbsp;
-                        Coupon expires: <fmt:formatDate
+                        Max Offer value: $ ${coupon.couponValue}&nbsp;&nbsp;&nbsp;
+                        Offer expires: <fmt:formatDate
                         type="DATE" value="${coupon.couponExp}"/>
                     </span>
                 </div><br>

@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>Welcome to BOGO by Zip, where you get buy-one get-one stuff near you.</h2>
+        <h2>BOGO PAYMENT page</h2>
         <h3 class="flash">${flash}</h3>    
         <br>
         <p>This page is not functional and payment will not really be accepted.</p>

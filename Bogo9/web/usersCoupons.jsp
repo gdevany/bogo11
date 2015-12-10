@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>Your coupons</h2>
+        <h2>Your BOGO Offers</h2>
         <h3 class="flash">${flash}</h3>    
         <form method="POST" action="coupons">
            <c:forEach var="coupon" items="${coupons}">
@@ -22,8 +22,8 @@
                     ${coupon.bizLoc}
                     <br>
                     <span class="footer">
-                        Max Coupon value: $ ${coupon.couponValue}&nbsp;&nbsp;&nbsp;
-                        Coupon posted on: <fmt:formatDate
+                        Max Offer value: $ ${coupon.couponValue}&nbsp;&nbsp;&nbsp;
+                        Offer posted on: <fmt:formatDate
                         type="DATE" value="${coupon.couponDate}"/>
                     </span>
             </div><br>

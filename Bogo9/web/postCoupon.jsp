@@ -10,37 +10,37 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>Thanks for choosing BOGO by Zip to post your coupon</h2>
+        <h2>Post your BOGO Offer</h2>
         <h3 class="flash">${flash}</h3>
         <form method="POST" action="main">
             <input type="hidden" name="action" value="postCoupon"/>
             <table id="formtable">
-                <tr><td>Business name:</td><td><input  
+                <tr><td>Business name:</td><td>&nbsp;&nbsp;<input  
                     type="text" value="${coupon.bizName}" name="bizName" class="textbox" 
                     placeholder="Max 40 characters."/>
                 </td></tr>
-                <tr><td>BUY ONE:</td><td><input  
+                <tr><td>BUY ONE:</td><td>&nbsp;&nbsp;<input  
                     type="text" value="${coupon.bogoDesc}" name="bogoDesc" class="textbox" 
                     placeholder="Max 40 characters.">&nbsp;(get one free)
                 </td></tr>
-                <tr><td>Address of participating location:</td><td><input
+                <tr><td>Address of participating location:</td><td>&nbsp;&nbsp;<input
                     type="text" value="${coupon.bizLoc}" name="bizLoc" class="textbox" 
                     placeholder="Max 60 characters"/></td></tr>
-                <tr><td>Max value: $</td><td><input  
+                <tr><td>Max value: </td><td>$<input  
                     type="text" value="${coupon.couponValue}" name="couponValue" 
                     class="textbox2" placeholder="max $ amt"/>
                 </td></tr>
-                <tr><td>ZipCode1:</td><td><input  
+                <tr><td>ZipCode1:</td><td>&nbsp;&nbsp;<input  
                     type="text" value="${coupon.zip1}" name="zip1" class="textbox2" 
                     placeholder="Zipcode"/>
                 </td></tr>
-                <tr><td>ZipCode2:</td><td><input  
+                <tr><td>ZipCode2:</td><td>&nbsp;&nbsp;<input  
                     type="text" name="zip2" class="textbox2" placeholder="optional"/>
                 </td></tr>
-                <tr><td>ZipCode3:</td><td><input  
+                <tr><td>ZipCode3:</td><td>&nbsp;&nbsp;<input  
                     type="text" name="zip3" class="textbox2" placeholder="optional"/>
                 </td></tr>
-                <tr><td colspan="2"><input type="submit" value="Post Your Coupon"/>
+                <tr><td colspan="2"><input type="submit" value="Post Your Offer"/>
                 </td></tr>
             </table>
         </form>

@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>BOGObyZip LOGIN page</h2>
+        <h2>BOGO LOGIN page</h2>
         <h3 class="flash">${flash}</h3><br><br> 
         <form method="POST" action="main">
             <input type="hidden" name="action" value="login"/>

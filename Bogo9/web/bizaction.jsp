@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>BOGObyZip business selection page</h2>
+        <h2>BOGO business selection page</h2>
         <h3 class="flash">${flash}</h3>    
         <form method="POST" action="main">
             <br><br>           
@@ -23,12 +23,12 @@
                     </div>
                     <div class="actionbox">
                         <a href="main?action=postCoupon">
-                            Post a Coupon
+                            Post an Offer
                         </a>
                     </div>
                     <div class="actionbox">
                         <a href="main?action=usersCoupons">
-                            See my coupons
+                            See my Offers
                         </a>
                     </div>
                 </c:when>

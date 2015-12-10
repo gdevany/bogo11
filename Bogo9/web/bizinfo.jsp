@@ -10,11 +10,12 @@
     </head>
     <body>
         <h1>BOGObyZip</h1>
-        <h2>BOGObyZip INFO page</h2>
+        <h2>BOGO INFO page</h2>
+        <h3></h3>
         <br><br>
         <p> -Cost: $20 per post (credit card payment only)</p>
-        <p> -Coupons are listed for 7 days</p>
-        <p> -You can choose up to 3 zip codes to post your coupon</p><br><br>
+        <p> -Offers are listed for 7 days</p>
+        <p> -You can choose up to 3 zip codes to post your Offer</p><br><br>
     <div class="actionbox">
                 <a href="main?action=bizaction" style="font-size:100%">
                     Take me back
